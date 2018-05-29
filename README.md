@@ -5,6 +5,6 @@
 npm install
 ````
 ````
-npm start
+npm run server
 ````
 Если по localhost:8080 видим стартовую страницу - всё хорошо.

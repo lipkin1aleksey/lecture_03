@@ -1,6 +1,6 @@
 var http = require('http'),
     static = require('node-static'),
-    file = new static.Server('.');
+    file = new static.Server('./dist/');
 
 http.createServer(function(req, res) {
     file.serve(req, res);
